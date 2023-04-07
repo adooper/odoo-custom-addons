@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4953d0c4-81f1-4207-9538-18853ee193b3" name="变更" comment="">
+      <change beforePath="$PROJECT_DIR$/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo_estate/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo_estate/__manifest__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo_estate/controllers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo_estate/controllers/controllers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo_estate/demo/demo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo_estate/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo_estate/models/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo_estate/models/odoo_estate_offer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo_estate/models/odoo_estate_property.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo_estate/models/odoo_estate_tag.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo_estate/models/odoo_estate_type.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo_estate/models/odoo_estate_user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo_estate/security/ir.model.access.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo_estate/views/menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo_estate/views/odoo_estate_offer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo_estate/views/odoo_estate_property.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo_estate/views/odoo_estate_tag.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo_estate/views/odoo_estate_type.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo_estate/views/odoo_estate_user.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo_estate/views/templates.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/odoo_estate/views/views.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ee7ad643-9c1e-4420-acad-e4f12aa50555" />
+        <option name="url" value="git@github.com:adooper/odoo-custom-addons.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NllH0b3bkv2OWexO2JkuUexGvw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "//wsl$/Ubuntu-22.04/opt/odoo16.config",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="4953d0c4-81f1-4207-9538-18853ee193b3" name="变更" comment="" />
+      <created>1680246458012</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680246458012</updated>
+      <workItem from="1680246459263" duration="1624000" />
+      <workItem from="1680251865413" duration="705000" />
+      <workItem from="1680255315423" duration="1000" />
+      <workItem from="1680574981339" duration="1901000" />
+      <workItem from="1680583762791" duration="654000" />
+      <workItem from="1680647979814" duration="453000" />
+      <workItem from="1680648453843" duration="33000" />
+      <workItem from="1680648498964" duration="1041000" />
+      <workItem from="1680649562072" duration="700000" />
+      <workItem from="1680762581321" duration="1096000" />
+      <workItem from="1680839362541" duration="451000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+</project>

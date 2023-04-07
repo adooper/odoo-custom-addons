@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4953d0c4-81f1-4207-9538-18853ee193b3" name="变更" comment="first">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git.md" afterDir="false" />
+    <list default="true" id="2a7da722-5d21-461c-b1e0-cc6d0678c635" name="变更" comment="first">
+      <change afterPath="$PROJECT_DIR$/odoo16_cookbook/1.Install.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo16_cookbook/2.odoo-App.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/odoo-custom-addons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/odoo-custom-addons.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2023-04-04_10_32____.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2023-04-06_14_30____.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2023-04-06_14_32____.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,18 +15,30 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="repository" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="odoo" />
+        <option value="OdooViewEmpty" />
+        <option value="OdooViewBasic" />
+        <option value="OdooModel" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;
-  }
-}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="ee7ad643-9c1e-4420-acad-e4f12aa50555" />
+        <option name="accountId" value="f15d042e-e18a-48a1-82a6-68850be2002d" />
         <option name="url" value="git@github.com:adooper/odoo-custom-addons.git" />
       </UrlAndAccount>
     </option>
@@ -33,7 +46,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2NllH0b3bkv2OWexO2JkuUexGvw" />
+  <component name="ProjectId" id="2NWtJpnGoPDipoMgtg2xMSWrWmQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -45,48 +58,178 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultOdooModelFileTemplate": "OdooModel",
+    "DefaultOdooViewFileTemplate": "OdooViewBasic",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "//wsl$/Ubuntu-22.04/opt/odoo-custom-addons",
+    "last_opened_file_path": "E:/Dev/odoo16-cookbook",
     "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "vue.rearranger.settings.migration": "true"
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
+  <component name="Push.Settings">
+    <option name="SHOW_DETAILS_PANEL" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu-22.04\opt\odoo-custom-addons\odoo_estate\views" />
+      <recent name="\\wsl$\Ubuntu-22.04\opt\odoo-custom-addons\odoo_estate\models" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu-22.04\opt\odoo-custom-addons\odoo16_cookbook" />
+      <recent name="\\wsl$\Ubuntu-22.04\opt\odoo-custom-addons" />
+      <recent name="\\wsl$\Ubuntu-22.04\opt\odoo-custom-addons\odoo_estate\static\src\scss" />
+      <recent name="\\wsl$\Ubuntu-22.04\opt\odoo-custom-addons\odoo_estate\static\src\css" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="odoo-custom-addons" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="odoo16" type="PythonConfigurationType" factoryName="Python">
+      <module name="odoo-custom-addons" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../odoo16" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../odoo16/odoo-bin" />
+      <option name="PARAMETERS" value="-d odoo16 -c /opt/odoo.conf --dev=all" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="4953d0c4-81f1-4207-9538-18853ee193b3" name="变更" comment="" />
-      <created>1680246458012</created>
+      <changelist id="2a7da722-5d21-461c-b1e0-cc6d0678c635" name="变更" comment="" />
+      <created>1679791598281</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1680246458012</updated>
-      <workItem from="1680246459263" duration="1624000" />
-      <workItem from="1680251865413" duration="705000" />
-      <workItem from="1680255315423" duration="1000" />
-      <workItem from="1680574981339" duration="1901000" />
-      <workItem from="1680583762791" duration="654000" />
-      <workItem from="1680647979814" duration="453000" />
-      <workItem from="1680648453843" duration="33000" />
-      <workItem from="1680648498964" duration="1041000" />
-      <workItem from="1680649562072" duration="700000" />
-      <workItem from="1680762581321" duration="1096000" />
-      <workItem from="1680839362541" duration="2376000" />
+      <updated>1679791598281</updated>
+      <workItem from="1679791601198" duration="22084000" />
+      <workItem from="1679838623917" duration="4827000" />
+      <workItem from="1679911294325" duration="14796000" />
+      <workItem from="1679956116647" duration="598000" />
+      <workItem from="1680086544464" duration="6253000" />
+      <workItem from="1680186587025" duration="2658000" />
+      <workItem from="1680261154994" duration="12578000" />
+      <workItem from="1680275074667" duration="44000" />
+      <workItem from="1680340988085" duration="85000" />
+      <workItem from="1680341077406" duration="13930000" />
+      <workItem from="1680402802449" duration="16329000" />
+      <workItem from="1680438138751" duration="7519000" />
+      <workItem from="1680516071666" duration="4547000" />
+      <workItem from="1680599787138" duration="977000" />
+      <workItem from="1680600775292" duration="3000" />
+      <workItem from="1680600835658" duration="1667000" />
+      <workItem from="1680602525275" duration="647000" />
+      <workItem from="1680603186929" duration="16181000" />
+      <workItem from="1680649100759" duration="25090000" />
+      <workItem from="1680681522533" duration="786000" />
+      <workItem from="1680699738405" duration="6477000" />
+      <workItem from="1680776491372" duration="753000" />
+      <workItem from="1680777525000" duration="6822000" />
+      <workItem from="1680787989533" duration="1166000" />
+      <workItem from="1680789161365" duration="3850000" />
+      <workItem from="1680859826651" duration="445000" />
+      <workItem from="1680860285560" duration="866000" />
     </task>
     <task id="LOCAL-00001" summary="first">
-      <created>1680840270972</created>
+      <created>1680261689551</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1680840270972</updated>
+      <updated>1680261689551</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first">
+      <created>1680261820707</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680261820707</updated>
+    </task>
+    <task id="LOCAL-00003" summary="4-1">
+      <created>1680341111027</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680341111027</updated>
+    </task>
+    <task id="LOCAL-00004" summary="4-3">
+      <created>1680532716798</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680532716798</updated>
+    </task>
+    <task id="LOCAL-00005" summary="first">
+      <created>1680618769284</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680618769284</updated>
+    </task>
+    <task id="LOCAL-00006" summary="first">
+      <created>1680776646272</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680776646272</updated>
+    </task>
+    <task id="LOCAL-00007" summary="first">
+      <created>1680776975960</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680776975960</updated>
+    </task>
+    <task id="LOCAL-00008" summary="first">
+      <created>1680777610592</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680777610592</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,7 +240,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="16.0" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -107,8 +262,22 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/manufacture" />
+      <path value="$PROJECT_DIR$/odoo-flowable" />
+      <path value="$PROJECT_DIR$/odoo14-cookbook" />
+      <path value="$PROJECT_DIR$/product-attribute" />
+      <path value="$PROJECT_DIR$/sale-workflow" />
+      <path value="$PROJECT_DIR$/server-tools" />
     </ignored-roots>
+    <MESSAGE value="4-1" />
+    <MESSAGE value="4-3" />
+    <MESSAGE value="4-5" />
+    <MESSAGE value="4-6" />
+    <MESSAGE value="4-7" />
     <MESSAGE value="first" />
     <option name="LAST_COMMIT_MESSAGE" value="first" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/odoo_custom_addons$main.coverage" NAME="main 覆盖结果" MODIFIED="1680186787426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

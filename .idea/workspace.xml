@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a7da722-5d21-461c-b1e0-cc6d0678c635" name="变更" comment="first">
-      <change afterPath="$PROJECT_DIR$/odoo16_cookbook/1.Install.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/odoo16_cookbook/2.odoo-App.md" afterDir="false" />
+    <list default="true" id="2a7da722-5d21-461c-b1e0-cc6d0678c635" name="变更" comment="4-7">
+      <change afterPath="$PROJECT_DIR$/aodoo_learn/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aodoo_learn/__manifest__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aodoo_learn/controllers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aodoo_learn/controllers/controllers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aodoo_learn/demo/demo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aodoo_learn/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aodoo_learn/models/aodoo_learn_property.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aodoo_learn/models/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aodoo_learn/security/aodoo_learn_security.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aodoo_learn/security/ir.model.access.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aodoo_learn/static/description/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aodoo_learn/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aodoo_learn/tests/test_property.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aodoo_learn/views/aodoo_learn_property.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aodoo_learn/views/menus.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aodoo_learn/views/templates.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo16_cookbook/3.odoos模型.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo16_cookbook/4.视图属性.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo16_cookbook/5.字段.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo16_cookbook/6.many2many.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo16_cookbook/7.创建权限组.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/odoo16_cookbook/8.编写测试用例.MD" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/odoo-custom-addons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/odoo-custom-addons.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2023-04-04_10_32____.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2023-04-06_14_30____.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2023-04-06_14_32____.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,11 +40,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="odoo" />
-        <option value="OdooViewEmpty" />
         <option value="OdooViewBasic" />
         <option value="OdooModel" />
+        <option value="OdooViewEmpty" />
+        <option value="Python Unit Test" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -54,28 +72,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultOdooModelFileTemplate": "OdooModel",
-    "DefaultOdooViewFileTemplate": "OdooViewBasic",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Dev/odoo16-cookbook",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultOdooModelFileTemplate&quot;: &quot;OdooModel&quot;,
+    &quot;DefaultOdooViewFileTemplate&quot;: &quot;OdooViewEmpty&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl$/Ubuntu-22.04/opt/odoo16-enterprise-master/odoo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PythonContentEntriesConfigurable&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="Push.Settings">
     <option name="SHOW_DETAILS_PANEL" value="false" />
   </component>
@@ -91,7 +108,29 @@
       <recent name="\\wsl$\Ubuntu-22.04\opt\odoo-custom-addons\odoo_estate\static\src\css" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.a_one">
+    <configuration name="a_one" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="odoo-custom-addons" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aodoo_python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aodoo_python/a_one.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="odoo-custom-addons" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,6 +175,43 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python 测试 (test_property.py 内)" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="odoo-custom-addons" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aodoo_learn/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/aodoo_learn/tests/test_property.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_property.TestStringMethods.test_upper 的 Python 测试" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="odoo-custom-addons" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/aodoo_learn/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_property.TestStringMethods.test_upper&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.a_one" />
+        <item itemvalue="Python 测试.Python 测试 (test_property.py 内)" />
+        <item itemvalue="Python 测试.test_property.TestStringMethods.test_upper 的 Python 测试" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -171,7 +247,9 @@
       <workItem from="1680787989533" duration="1166000" />
       <workItem from="1680789161365" duration="3850000" />
       <workItem from="1680859826651" duration="445000" />
-      <workItem from="1680860285560" duration="866000" />
+      <workItem from="1680860285560" duration="6276000" />
+      <workItem from="1680929218312" duration="14601000" />
+      <workItem from="1680960998008" duration="1269000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1680261689551</created>
@@ -229,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680777610592</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="4-7">
+      <created>1680869441112</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680869441112</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,11 +358,13 @@
     <MESSAGE value="4-3" />
     <MESSAGE value="4-5" />
     <MESSAGE value="4-6" />
-    <MESSAGE value="4-7" />
     <MESSAGE value="first" />
-    <option name="LAST_COMMIT_MESSAGE" value="first" />
+    <MESSAGE value="4-7" />
+    <option name="LAST_COMMIT_MESSAGE" value="4-7" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/odoo_custom_addons$main.coverage" NAME="main 覆盖结果" MODIFIED="1680186787426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/odoo_custom_addons$.coverage" NAME=" 覆盖结果" MODIFIED="1680954388851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aodoo_learn/tests" />
+    <SUITE FILE_PATH="coverage/odoo_custom_addons$main.coverage" NAME="main 覆盖结果" MODIFIED="1680961509931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/odoo_custom_addons$a_one.coverage" NAME="a_one 覆盖结果" MODIFIED="1680961544612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aodoo_python" />
   </component>
 </project>

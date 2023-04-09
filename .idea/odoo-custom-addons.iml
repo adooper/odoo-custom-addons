@@ -3,6 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$/../16/odoo-stubs16" />
     <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$/../odoo16-enterprise-master/odoo" />
     <orderEntry type="jdk" jdkName="Python 3.10.6 WSL (Ubuntu-22.04): (/usr/bin/python3)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="odoo16-cookbook" />
